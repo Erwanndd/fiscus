@@ -25,7 +25,7 @@
 
 .banner-small {
   height: 200px;
-  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("../../images/banner-small.jpg");
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url-image("banner-small.jpg");
   background-size: cover;
   text-align: center;
   display: flex;
