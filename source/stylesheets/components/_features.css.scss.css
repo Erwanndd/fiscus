@@ -1,0 +1,22 @@
+.features h2 {
+  font-size: 20px;
+}
+
+.feature {
+	position:relative;
+}
+
+.arrow {
+  font-size: 100px;
+  position: absolute;
+  padding-top: 10px;
+  color: #eaeaea;
+}
+
+#arrow-one {
+	left:30%;
+}
+
+#arrow-two {
+	left:63%;
+}
