@@ -1,0 +1,64 @@
+.cards h1{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.cards h2{
+font-size: 18px;
+}
+
+.card {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  color: white;
+}
+
+.card-1 {
+   background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("../../images/immeuble.jpg");
+}
+
+.card-2 {
+   background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+}
+
+.card-3 {
+   background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+}
+
+.card-user {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  p {
+  margin-top: 15px;
+  }
+}
+
+.card-description {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  a {
+  color : white;
+  }
+}
+
+.card-links {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  a {
+  color : white;
+  }
+  &:hover {
+  color : #213752;
+  }
+}
