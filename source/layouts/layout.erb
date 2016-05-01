@@ -42,31 +42,36 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+          <ul class="nav navbar-nav">
+            <li><%= link_to 'Comment ça marche ?', '#' %></li>
+            <li><%= link_to 'Questions fréquentes', '/faq.html' %></li>
+            <li><%= link_to 'Actualités', '#' %></li>
+          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
-              <% end %>
             </li>
             <li>
-              <% link_to "/contact.html" do %>
-                <i class="fa fa-envelope-o"></i> Contact
+              <% link_to "#" do %>
+                <i class="fa fa-phone fa-lg"></i> 01.01.01.01.01
               <% end %>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-              </ul>
-            </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
+            <li><%= link_to 'Connexion', '#', :class =>"btn btn-lg" %></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <%= yield %>
+
+    <div id="footer">
+      <div class="footer-content">
+          <ul class="list-inline">
+            <li><%= link_to 'Mentions légales', '#' %></li>
+            <li><%= link_to 'CGU', '#' %></li>
+            <li><%= link_to 'Qui sommes nous', '#' %></li>
+            <li><%= link_to 'Recrutement', '#' %></li>
+          </ul>
+          <p>© 2016 A compléter - Tous droits réservés.</p> 
+      </div>
+    </div>
   </body>
 </html>
