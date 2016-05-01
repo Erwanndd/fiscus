@@ -1,10 +1,262 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Fiscus
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div class="banner">
+  <div class="banner-content">
+    <h1>Défendez vos droits face à l'administration fiscale</h1>
+    <p>Nous vous assistons dans le cadre de vos redressements</p>
+    <%= link_to 'Nouvelle procédure', '#', :class => "btn btn-lg btn-dark" %>
+    <div>
+      <i class="fa fa-angle-down fa-3x floating" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
+
+<div class="features">
+  <div class="container-fluid">
+    <h1 class="text-center">Comment ça marche ?</h1>
+    <div class="row">
+      <div class="feature">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+          <%= image_tag 'documents.png', :width => '125', :heigt => '150' %>
+          <h2>Transmettez-nous vos documents</h2>
+          <p>En toute simplicité via ce site</p>
+        </div>
+      </div>
+
+      <div class="hidden-xs hidden-sm arrow" id="arrow-one">
+        <i class="fa fa-long-arrow-right"></i>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+        <div class="feature">
+          <%= image_tag 'calendrier.png', :width => '125', :heigt => '150' %>
+          <h2>HEADING</h2>
+          <p>Description</p>
+        </div>
+      </div>
+
+      <div class="hidden-xs hidden-sm arrow" id="arrow-two">
+        <i class="fa fa-long-arrow-right"></i>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+        <div class="feature">
+          <%= image_tag 'documents.png', :width => '125', :heigt => '150' %>
+          <h2>HEADING</h2>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="featurette background-grey">
+  <div class="hidden-xs corner-ribbon">
+    <p><i class="fa fa-graduation-cap"></i> Corner <br> Ribbon</p>
+  </div>
+  <div class="container">
+  <h1 class="text-center">Nos garanties</h1>
+    <div class="row featurette">
+      <div class="col-md-5 col-md-offset-1">
+        <h2 class="featurette-heading">First featurette heading</h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div>
+          <ul class="list-inline">
+            <li>
+              <span class="fa-stack fa-lg legend-icons">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+              </span>Transparence     
+            </li>
+            <li>
+              <span class="fa-stack fa-lg legend-icons">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+              </span>Faites des économies      
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+      	<%= image_tag 'tribunal.jpg', :width => '450', :heigt => '250' %>
+      </div>
+    </div>
+
+    <div class="row featurette">
+      <div class="col-md-5 col-md-push-6">
+        <h2 class="featurette-heading">Oh yeah, it's that good</h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div>
+          <ul class="list-inline">
+            <li>
+              <span class="fa-stack fa-lg legend-icons">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+              </span>Transparence   
+            </li>
+            <li>
+              <span class="fa-stack fa-lg legend-icons">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>Faites des économies     
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-5 col-md-pull-4">
+      	<%= image_tag 'centre.jpeg', :width => '450', :heigt => '250' %>
+      </div>
+    </div>
+
+    <div class="row featurette">
+      <div class="col-md-5 col-md-offset-1">
+        <h2 class="featurette-heading">And lastly, this one</h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div>
+          <ul class="list-inline">
+            <li>
+              <span class="fa-stack fa-lg legend-icons">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-balance-scale fa-stack-1x fa-inverse"></i>
+              </span>Obtenez une décision de justice        
+            </li>
+            <li>
+              <span class="fa-stack fa-lg legend-icons">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-money fa-stack-1x fa-inverse"></i>
+              </span>Faites des économies
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-5 padding-bottom">
+      	<%= image_tag 'tribunal.jpg', :width => '450', :heigt => '250' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      	<%= image_tag 'ipad-background.jpg' %>
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="item">
+      	<%= image_tag 'macbook-background.jpg' %>
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="item">
+      	<%= image_tag 'iphone-background.jpg' %>
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="banner-small">
+  <%= link_to 'Nouvelle procédure', '#', :class => "btn btn-lg btn-dark" %>
+</div>
+
+<div class="banner-grey text-center">
+  <h1>Ils parlent de nous</h1>
+  <div class="banner-flex">
+    <% link_to '#' do %>    
+      <%= image_tag 'les-echos.jpg' %>
+    <% end %>
+    <% link_to '#' do %>    
+      <%= image_tag 'les-echos.jpg' %>
+    <% end %>
+    <% link_to '#' do %>    
+      <%= image_tag 'les-echos.jpg' %>
+    <% end %>
+    <% link_to '#' do %>    
+      <%= image_tag 'les-echos.jpg' %>
+    <% end %>
+  </div>
+</div>
+
+<div class="cards">
+  <div class="container">
+    <h1 class="text-center">Actualités</h1>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="card card-1">
+          <%= image_tag 'les-echos.jpg', :width => '50', :heigt => '50', :class => "avatar card-user" %>
+          <div class="card-category">
+            <p>IMMOBILIER - DATE</p>
+          </div>
+          <div class="card-description">
+            <h2>Résidence principale et SCI</h2>
+            <%= link_to 'Lire la suite', '#' %>
+          </div>
+          <div class="card-links">
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-linkedin-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card card-2">
+          <%= image_tag 'les-echos.jpg', :width => '50', :heigt => '50', :class => "avatar card-user" %>
+          <div class="card-category">
+            <p>THEME - DATE</p>
+          </div>
+          <div class="card-description">
+            <h2>Actualité</h2>
+            <%= link_to 'Lire la suite', '#' %>
+          </div>
+          <div class="card-links">
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-linkedin-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card card-3">
+          <%= image_tag 'les-echos.jpg', :width => '50', :heigt => '50', :class => "avatar card-user" %>
+          <div class="card-category">
+            <p>THEME - DATE</p>
+          </div>
+          <div class="card-description">
+            <h2>Actualité</h2>
+            <%= link_to 'Lire la suite', '#' %>
+          </div>
+          <div class="card-links">
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-linkedin-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+      	<%= link_to 'Voir toutes les actualités', '#', :class => "btn btn-lg btn-white" %>
+      </div>
+    </div>
+  </div>
+</div>
