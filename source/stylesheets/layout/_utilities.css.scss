@@ -4,8 +4,17 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 .padded {
-  padding-top: 8em;
-  padding-bottom: 8em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.text-blue-dark {
+  color: $blue-dark;
+}
+.bg-gray {
+  background: $gray;
+}
+.bg-white {
+  background: white;
 }
 .bg-red {
   background: $red;
