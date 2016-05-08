@@ -2,9 +2,9 @@
  * Colors & Fonts
  * ------------------------------------- */
 $navbar-color: white;
-$navbar-hover-color: $blue;
+$navbar-hover-color: $blue-dark;
 $navbar-font-family: $header-font;
-$navbar-bg: $blue-dark;
+$navbar-bg: $blue;
 
 /* -------------------------------------
  * Box model
@@ -12,8 +12,8 @@ $navbar-bg: $blue-dark;
 $navbar-height: 60px;
 $navbar-vertical-padding: 5px;
 $navbar-horizontal-padding: 20px;
-$navbar-border-bottom-width: 0;
-$navbar-border-bottom-color: grey;
+$navbar-border-bottom-width: 1px;
+$navbar-border-bottom-color: $gray;
 
 /* -------------------------------------
  * Navbar button
