@@ -8,19 +8,19 @@
 }
 
 .carousel-caption {
-	color : $blue-dark;
+	color : $green;
 }
 
 .carousel-indicators li {
-    background: #1a2b40;
+    background: $green;
     border:none;
 }
 
 .carousel-indicators .active {
-    background: #1a2b40;
+    background: $green;
 }
 
 .carousel-control.left, .carousel-control.right {
     background-image: none;
-    color:#1a2b40;
+    color: $green;
 }

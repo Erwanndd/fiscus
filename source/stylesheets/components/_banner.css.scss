@@ -1,6 +1,6 @@
 .banner {
   height: 75vh;
-  background: linear-gradient(-225deg, rgba(30,30,30,0.5) 30%, rgba(46,46,46,0.4) 80%), image-url("banner.jpg");
+  background: linear-gradient(-225deg, rgba(30,30,30,0.4) 30%, rgba(46,46,46,0.3) 80%), image-url("calculator.jpg");
   background-size: cover;
   color: white;
   text-align: center;
@@ -25,7 +25,7 @@
 
 .banner-small {
   height: 200px;
-  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), image-url("banner-small.jpg");
+  background: linear-gradient(-225deg, rgba(30,30,30,0.4) 30%, rgba(46,46,46,0.3) 80%), image-url("banner-small.jpg");
   background-size: cover;
   text-align: center;
   display: flex;
