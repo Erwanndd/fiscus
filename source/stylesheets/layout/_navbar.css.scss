@@ -1,27 +1,27 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: white;
-$navbar-hover-color: $gray-light;
+$navbar-color: $blue;
+$navbar-hover-color: $blue-dark;
 $navbar-font-family: $header-font;
-$navbar-bg: $blue;
+$navbar-bg: white;
 
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
-$navbar-height: 60px;
+$navbar-height: 40px;
 $navbar-vertical-padding: 5px;
-$navbar-horizontal-padding: 20px;
+$navbar-horizontal-padding: 10px;
 $navbar-border-bottom-width: 1px;
-$navbar-border-bottom-color: $gray;
+$navbar-border-bottom-color: white;
 
 /* -------------------------------------
  * Navbar button
  * ------------------------------------- */
-$navbar-btn-height: 50px;
-$navbar-btn-bg: $purple;
+$navbar-btn-height: 40px;
+$navbar-btn-bg: $blue;
 $navbar-btn-color: white;
-$navbar-btn-horizontal-padding: 15px;
+$navbar-btn-horizontal-padding: 10px;
 $navbar-btn-radius: 5px;
 
 /* -------------------------------------
